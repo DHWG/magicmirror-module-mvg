@@ -57,6 +57,13 @@ Module.register('mvg', {
   },
 
   /**
+   * Produces the module header.
+   */
+  getHeader: function() {
+    return `Departures: ${this._from}`;
+  },
+
+  /**
    * Produce HTML representation.
    */
   getDom: function() {
@@ -70,9 +77,6 @@ Module.register('mvg', {
       wrapper.appendChild(container);
     }
     
-    let title = `<h2>Departures: ${this._from}</h2>`;
-    wrapper.innerHTML = title + wrapper.innerHTML;
-
     return wrapper;
   },
 
