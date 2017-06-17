@@ -1,0 +1,8 @@
+{
+  "name": "smartmirror-mvg",
+  "description": "SmartMirror MVG Departure Plugin",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}

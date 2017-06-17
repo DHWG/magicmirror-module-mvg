@@ -1,0 +1,20 @@
+div.mvg-wrapper {
+  font-size: 0.7em;
+  line-height: 1.8;
+}
+
+div.mvg-station {
+  color: white;
+}
+
+div.mvg-con-head {
+  font-weight: 600;
+}
+
+span.mvg-con-exact {
+  font-size: 0.6em;
+}
+
+div.mvg-con-next {
+  font-size: 0.8em;
+}
